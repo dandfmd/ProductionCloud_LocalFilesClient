@@ -1,2 +1,2 @@
 # ProductionCloud_LocalFilesClient
- Sync production files between the Cloud and your PC
+LocalFilesClient syncs products and folders from the ProductionCloud into the PC for local editing.
