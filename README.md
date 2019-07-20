@@ -6,8 +6,9 @@ This is a recent project and its not a vital part of the server hence it has not
 
 ### Tips for beta testing
  - Don't select a folder that has another syncing software such as GoogleDrive or DropBox.
- - Try not to interrupt the connection while file transferring. Once a file is saved allow for sufficient time for it to upload.
- - Don't sync all your files. Try too sync edit and remove as needed.
+ - Try not to interrupt the connection while file transferring. Once a file is saved allow for sufficient time for it to upload before you close the client.
+ - Don't sync all your files.
+ - Try too sync, edit and remove as needed.
  - Try to avoid for multiple users syncing the same file at the same time.
 
 ## Install
