@@ -1,10 +1,16 @@
 # ProductionCloud_LocalFilesClient
 LocalFilesClient syncs products and folders from the ProductionCloud into the PC for local editing.
 
-### Beta
-This is a recent project and its not a vital part of the server hence it has not been fully develop nor tested. We don't recommend its use for important files, projects or in a production line. For that we recommend our interactive web form. With this said we have found this tools very useful for locally editing drawing CAD files since most of them rely on Windows CAD software.
+## Beta
+This is a recent project and its not a vital part of the server hence it has not been fully develop nor tested. We don't recommend its use for important files, projects or in a production line. For that we recommend our interactive web form. With this said we have found this tools very useful for locally editing drawing files since most of them rely on Windows CAD software.
 
-### Install
+### Tips for beta testing
+ - Don't select a folder that has another syncing software such as GoogleDrive or DropBox.
+ - Try not to interrupt the connection while file transferring. Once a file is saved allow for sufficient time for it to upload.
+ - Don't sync all your files. Try too sync edit and remove as needed.
+ - Try to avoid for multiple users syncing the same file at the same time.
+
+## Install
 **Windows**  
  1. [Download Windows 64 executable file from GitHub.](https://github.com/dfmdmx/ProductionCloud_LocalFilesClient/blob/master/dist/LocalFilesClient.exe)
  2. Double click to run.
@@ -18,4 +24,4 @@ The client will then ask for a login and a directory to place the files. Go to M
 
 Right click any Cloud product and select 'send to local folder' in order to sync it locally with the client.
 
-**Note:** Google users will need to create a server password. To create one, instead of login in using the Google button type your email in the site login form and click on forgot password. A mail will be send to you asking for a new password.
+**Note:** Google users will need to create a server password. To create one, instead of login in using the Google button, type your email in the site login form and click on forgot password. A mail will be send to you asking for a new password.
