@@ -2,7 +2,7 @@
 LocalFilesClient syncs products and folders from the ProductionCloud into the PC for local editing.
 
 ### Beta
-This is a recent project
+This is a recent project and its not a vital part of the server hence it has not been fully develop nor tested. We don't recommend its use for important files or projects neither its use in a production line. For that we recommend our interactive web form. With this said we have found this tools very useful for locally editing drawing CAD files since most of them rely on Windows CAD software.
 
 ### Install
 **Windows**  
