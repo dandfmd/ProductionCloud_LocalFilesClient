@@ -1,0 +1,476 @@
+2019-11-21 11:50:33,694:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:33,696:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:34,991:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:34,995:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:36,313:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:36,317:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:37,631:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:37,635:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:38,982:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:38,984:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:40,271:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:40,275:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:41,586:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:41,590:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:42,905:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:42,909:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:44,224:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:44,229:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:45,528:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:45,532:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:46,875:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:46,881:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:48,228:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:48,235:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:49,548:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:49,553:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:50,874:asyncio:ERROR:Exception in callback None()
+handle: <Handle cancelled _SelectorSocketTransport._read_ready() created at asyncio\selector_events.py:262>
+source_traceback: Object created at (most recent call last):
+  File "LocalFilesClient.py", line 34, in <module>
+  File "asyncio\base_events.py", line 422, in run_forever
+  File "asyncio\base_events.py", line 1424, in _run_once
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 262, in _add_reader
+Traceback (most recent call last):
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
+2019-11-21 11:50:50,879:root:ERROR:Client Error
+Traceback (most recent call last):
+  File "websocket_client.py", line 90, in run
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 2, in __aenter__
+  File "asyncio\coroutines.py", line 129, in throw
+  File "site-packages\websockets\py35\client.py", line 12, in __await_impl__
+  File "asyncio\base_events.py", line 804, in create_connection
+  File "asyncio\base_events.py", line 830, in _create_connection_transport
+  File "asyncio\events.py", line 145, in _run
+  File "asyncio\selector_events.py", line 730, in _read_ready
+  File "asyncio\sslproto.py", line 505, in data_received
+  File "asyncio\sslproto.py", line 201, in feed_ssldata
+  File "ssl.py", line 694, in do_handshake
+  File "site-packages\idna_ssl.py", line 19, in patched_match_hostname
+  File "ssl.py", line 331, in match_hostname
+ssl.CertificateError: hostname 'www.ingenierialinarand.com' doesn't match 'ingenieria.dfmd.mx'
