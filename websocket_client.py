@@ -29,7 +29,7 @@ async def login():
     if not user_id or not login_token:
         #webbrowser.open(SERVER_HOST + '/local-products-login?port='+str(LOCAL_SERVER_PORT), new=0, autoraise=True)
         
-        await utils.show_info("Linarand sincronizador de archivos","No hay ningún usuario guardado. Inicia sesión...")
+        await utils.show_info("Sincronizador de archivos","No hay ningún usuario guardado. Inicia sesión...")
         user_mail,password= await authenticate_box.ask_login()
         if user_mail==None or password==None:
             exit()
@@ -48,18 +48,18 @@ async def login():
     try:
         username= await server.authenticate(user_id=user_id,token=login_token)
     except RemoteException as e:
-        await utils.show_warning("Linarand sincronizador de archivos","Hubo un problema. "+str(e)+". Eliminando usuario")
+        await utils.show_warning("Sincronizador de archivos","Hubo un problema. "+str(e)+". Eliminando usuario")
         utils.set_user_id(None)
         utils.set_login_token(None)
         utils.save_data()
         return await login()
     if just_logged_in:
-        asyncio.ensure_future(utils.show_info("Linarand sincronizador de archivos","Sesión iniciada como %s. Puedes ir a la página de Ingeniería Linarand y sincronizar los archivos que desees desde este equipo."%username))
+        asyncio.ensure_future(utils.show_info("Sincronizador de archivos","Sesión iniciada como %s. Puedes ir a la página de Ingeniería Linarand y sincronizar los archivos que desees desde este equipo."%username))
 async def start():
     
     sync_path=utils.get_sync_path()
     while sync_path is None or not pathlib.Path(sync_path).exists():
-        await utils.show_info("Linarand sincronizador de archivos","No hay una carpeta de sincronización guardada. Escoge una...")
+        await utils.show_info("Sincronizador de archivos","No hay una carpeta de sincronización guardada. Escoge una...")
         path= await utils.ask_for_folder()
         print(path)
         if not path:
@@ -74,7 +74,7 @@ async def start():
             utils.save_data()
             
         except:
-             await utils.show_warning("Linarand sincronizador de archivos","Ruta inválida")
+             await utils.show_warning("Sincronizador de archivos","Ruta inválida")
     await login()
     pds=list(file_manager.get_all_synced_products().keys())
     await server.set_synced_products(products=pds)
